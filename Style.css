@@ -1,0 +1,244 @@
+body {
+    background-color: #86A080;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.body {
+    margin: 0;
+    padding: 0;
+    background: #86A080;
+}
+
+.topnav{
+    width: 100%;
+    background-color: #86A080;
+    overflow: auto;
+}
+
+.ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+
+.li{
+    float: left;
+
+}
+.logo {
+  position: absolute;
+  display: inline-block;
+  vertical-align: top;
+  width: 170px;
+  height: 170px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 15px; 
+}
+
+.topnav {
+  background-color: #86A080;
+  overflow: hidden ;
+}
+
+.topnav a {
+  box-shadow: none;
+  display: block;
+  float: right;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 80px 60px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.nav:hover:not(.current){
+  transform: scale(1.1) ;
+  text-shadow: 5px 5px 2px rgb(223, 219, 219);
+}
+
+.navItem.current{
+color: gray
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.kape {
+  color:white;
+  font-size: 26px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+.img2{
+  width:550px;
+  float:right;
+  margin-right: 0px;
+  padding:10px 10px;
+}
+
+.img3{
+  width: 650px;
+  float:left;
+  margin-left: 0px;
+  padding:10px 10px;
+}
+
+.tinapay{
+  float: right;
+  color:white;
+  font-size: 26px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-right: 10px;
+  margin-left: 100px;
+}
+
+.aboutus{
+  float: left;
+  color:white;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-right: 10px;
+  margin-left: 100px;
+}
+
+.careers{
+  float: left;
+  color:white;
+  font-size: 26px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 200px;
+}
+
+.rewards{
+  float: right;
+  color:white;
+  font-size: 26px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-right: 400px;
+  margin-left: 100px;
+}
+
+.ig{
+  float: right;
+  width: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 550px;
+  margin-left: 100px;
+}
+
+.twt{
+  float: center;
+  width: 50px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-right: 300px;
+  margin-left: 200px;
+}
+
+.fb{
+  float: left;
+  width: 50px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+/*Menu*/
+.heading{
+  text-align: center;
+}
+
+.heading span{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f2f2f2;
+  text-align: center;
+}
+.heading h1{
+  font-size: 2rem;
+  color: #f2f2f2;
+  text-align: center;
+}
+.btn {
+  padding: 7px 16px;
+  border: 2px #04AA6D;
+  border-radius: 40px;
+  color: #0a0a0a;
+  font-weight: 500;
+}
+*::selection{
+  color: #fff;
+  background-color: #86A080;
+}
+.btn:hover{
+  color: #04AA6D;
+  background: #f2f2f2;
+}
+
+.shop-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 10rem;
+}
+.shop-container .box{
+  flex: 1 1 10rem;
+}
+
+.shop-container1_1 .box{
+  flex: 1 1 10rem;
+  margin-bottom: 50%;
+}
+.shop-container1_2 .box{
+  flex: 1 1 10rem;
+  margin-right: 50%;
+}
+
+.shop-container1{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 5rem;
+}
+.shop-container1_2 .box1{
+  flex: 1 1 10rem;
+}
+
+/*About us */
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.delivery-img{
+  flex: 1 1 15rem;
+}
+.starbucks-text{
+  flex: 1 1 65rem;
+}
+.starbucks-text h2{
+   font-size: 1.6rem;
+   color: #0a0a0a;
+}
+.starbucks-text p{
+  margin: 0.5rem 0 1rem;
+  text-align: justify;
+  color: #f2f2f2;
+}
